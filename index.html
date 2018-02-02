@@ -6,14 +6,15 @@
                                                                              
                                                                              
 <body style='margin : 0px; overflow: hidden;'>
-<a-scene embedded arjs=’sourceType: webcam;’>
+<a-scene embedded arjs='sourceType: webcam;'>
   <a-assets>
     <a-asset-item id="tree-obj" src="model.obj"></a-asset-item>
     <a-asset-item id="tree-mtl" src="model.mtl"></a-asset-item>
   </a-assets>
 
+          <a-marker preset='hiro'>
   <a-entity camera obj-model="obj: #tree-obj; mtl: #tree-mtl">
-        <a-marker preset=’hiro’>
+
         
       </a-marker>
   
